@@ -1,5 +1,11 @@
 require("lazy").setup({
   {
+    'barrett-ruth/live-server.nvim',
+    build = 'pnpm add -g live-server',
+    cmd = { 'LiveServerStart', 'LiveServerStop' },
+    config = true
+  },
+  {
     "AstroNvim/AstroNvim",
     version = "^4", -- Remove version tracking to elect for nighly AstroNvim
     import = "astronvim.plugins",

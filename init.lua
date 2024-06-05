@@ -21,3 +21,4 @@ require "plugins.catppuccin"
 require "plugins.vimbegood"
 require "plugins.wakatime"
 require "keymaps"
+require('live-server').setup(opts)
