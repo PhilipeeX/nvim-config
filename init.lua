@@ -14,6 +14,9 @@ if not pcall(require, "lazy") then
   vim.fn.getchar()
   vim.cmd.quit()
 end
+
+vim.opt.guifont = "JetBrains Mono:h12"
+
 -- Configuração global para a indentação
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 2
