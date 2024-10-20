@@ -29,4 +29,5 @@ require "plugins.catppuccin"
 require "plugins.vimbegood"
 require "plugins.wakatime"
 require "keymaps"
-require('live-server').setup(opts)
+require("live-server").setup(opts)
+require "debugger-dap-config"
